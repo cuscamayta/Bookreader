@@ -1,0 +1,87 @@
+.demoPage{ 
+  background-size: auto 100%;
+  position: relative;
+
+  background: 
+    linear-gradient( rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),
+    url("https://img00.deviantart.net/cbb9/i/2005/258/c/4/paper_texture_v5_by_bashcorpo.jpg");
+  background-size: cover;
+  //opacity: 0.2;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: 'Stalemate', cursive;
+}
+
+.box-main{
+  margin: 50px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.view-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-view {
+  box-shadow: 0px 0px 10px 5px rgb(0 0 0 / 20%);
+  margin: 30px;
+}
+
+.book{
+  font-size: 12px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.demoPage{
+  padding: 15px;
+  p.content{
+    text-align: justify;
+  }
+  p.numeration{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+  }
+}
+
+.demoPortada {
+  background-size: auto 100%;
+  position: relative;
+
+  background: 
+    linear-gradient( rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),
+    url("https://thumbs.dreamstime.com/b/fondo-de-la-sepia-7832325.jpg");
+  background-size: cover;
+  //opacity: 0.2;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: 'Stalemate', cursive;
+}
+
+#minDescription{
+  margin: 10px;
+  display: none;
+}
+
+.minHover:hover{
+  width: 100%;
+  height: 100%;
+  transition: background-color 2s;
+  background-color: #4a3320 !important;
+  transition: 2s;
+  position: absolute;
+  transition: top 2s; /* only transition top property */
+  top: 0;
+  #minDescription{
+    display: block;
+  }
+}

@@ -1,0 +1,34 @@
+:root {
+  --menu-top-h: 200px;
+  --menu-side-w: 300px;
+  --menu-footer-h: 15%;
+}
+.top-menu{
+  width: 100%;
+}
+
+.side-menu{
+  height: 100%;
+  width: var(--menu-side-w);
+  position: relative;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #af710063;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.footer-menu{
+}
+
+main{
+  width: 100vw;
+}
+
+.layout{
+  .middle{
+    display: flex;
+    height: 100vh;
+  }
+}
